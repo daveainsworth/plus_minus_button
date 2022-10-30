@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 30px 8%;
+    overflow-x: hidden;
+    font-size: 30px;
+    border: 1px solid #000;
+    background: lightseagreen;
+}
+
+.value {
+    color: #fff;
+    margin: 10px;
+}
+
+a,
+.plus,
+.minus {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+a:hover,
+.plus,
+.minus {
+    color: #ccc;
+}
